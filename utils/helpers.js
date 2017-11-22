@@ -2,7 +2,7 @@ import React from 'react'
 import { View, StyleSheet, AsyncStorage } from 'react-native'
 import { FontAwesome, MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons'
 import { white, orange, blue, lightPurp, pink, red } from './colors'
-import { Notification, Permissions } from 'expo'
+import { Notifications, Permissions } from 'expo'
 
 
 const NOTIFICATION_KEY = 'UdaciFitness:notifications'
